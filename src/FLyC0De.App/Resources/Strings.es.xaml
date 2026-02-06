@@ -1,0 +1,27 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <system:String x:Key="AppTitle">FLyC0De Suite</system:String>
+    <system:String x:Key="Lang_Title">Seleccionar Idioma</system:String>
+    <system:String x:Key="Lang_Label">Idioma:</system:String>
+    <system:String x:Key="Settings_MinimizeToTray">Minimizar al cerrar</system:String>
+    <system:String x:Key="Btn_Ok">Aceptar</system:String>
+    <system:String x:Key="Btn_Cancel">Cancelar</system:String>
+    <system:String x:Key="Restart_Title">Reinicio Requerido</system:String>
+    <system:String x:Key="Restart_Message">El idioma ha cambiado. La aplicación necesita reiniciarse para aplicar los cambios. ¿Reiniciar ahora?</system:String>
+
+    <!-- Main Window -->
+    <system:String x:Key="App_Subtitle">Sistema Modular de Entrada Avanzado</system:String>
+    <system:String x:Key="Main_Devices">Dispositivos</system:String>
+    <system:String x:Key="Main_Modules">Módulos</system:String>
+    <system:String x:Key="Main_Bindings">Atajos</system:String>
+    <system:String x:Key="Btn_DetectDevice">Detectar Dispositivo</system:String>
+    <system:String x:Key="Btn_Settings">Ajustes</system:String>
+    <system:String x:Key="Btn_Add">Agregar</system:String>
+    <system:String x:Key="Btn_Edit">Editar</system:String>
+    <system:String x:Key="Btn_Delete">Eliminar</system:String>
+    <system:String x:Key="Btn_Buy">COMPRAR</system:String>
+    
+    <!-- Add more strings as needed -->
+</ResourceDictionary>

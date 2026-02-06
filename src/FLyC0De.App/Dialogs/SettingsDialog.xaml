@@ -1,0 +1,74 @@
+<Window x:Class="FLyC0De.App.Dialogs.SettingsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource Lang_Title}" 
+        Height="360" Width="380"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="{StaticResource PanelBackgroundBrush}"
+        Icon="/Resources/Logo.ico">
+    <!-- Note: Switched Background to PanelBackgroundBrush to match new theme -->
+
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" 
+                   Text="{DynamicResource Lang_Label}" 
+                   Margin="0,0,0,16"/>
+
+        <ComboBox x:Name="LanguageComboBox" 
+                  Grid.Row="1"
+                  DisplayMemberPath="Name"
+                  SelectedValuePath="Code"
+                  Margin="0,0,0,16"/>
+
+        <CheckBox x:Name="MinimizeToTrayCheckBox"
+                  Grid.Row="2"
+                  Content="{DynamicResource Settings_MinimizeToTray}"
+                  Margin="0,0,0,16"/>
+
+        <GroupBox Grid.Row="3" Header="Bot Integration" Margin="0,0,0,16" Padding="8">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Target Bot:" Margin="0,0,0,4"/>
+                <ComboBox x:Name="BotTargetComboBox" Grid.Row="1" Grid.Column="0" Margin="0,0,8,0">
+                    <ComboBoxItem Content="Streamer.bot"/>
+                    <ComboBoxItem Content="Mix It Up"/>
+                    <ComboBoxItem Content="SAMMI"/>
+                    <ComboBoxItem Content="Firebot"/>
+                </ComboBox>
+
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Port:" Margin="0,0,0,4"/>
+                <TextBox x:Name="BotPortTextBox" Grid.Row="1" Grid.Column="1" Text="8080"/>
+            </Grid>
+        </GroupBox>
+
+        <StackPanel Grid.Row="4" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right">
+            <Button x:Name="OkButton" 
+                    Content="{DynamicResource Btn_Ok}" 
+                    Click="OkButton_Click"
+                    Width="100"
+                    Margin="0,0,8,0"/>
+            <Button x:Name="CancelButton" 
+                    Content="{DynamicResource Btn_Cancel}" 
+                    Click="CancelButton_Click"
+                    Width="100"/>
+        </StackPanel>
+    </Grid>
+</Window>

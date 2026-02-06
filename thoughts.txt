@@ -1,0 +1,42 @@
+FLyC0De Suite
+Super Macros te permite identificar dispositivos y asignar sus teclas a cosas bloqueando su input original.
+Entre esas cosas están sonidos, pulsaciones, peticiones http y programas.
+
+SuperMacros es portable, bajar y ejecutar. Tiene dependencia con Interception driver.
+
+Si SM pudiera conectarse directamente a SBot via wss, y detectar automáticamente las acciones instaladas solo necesitamos explicar la integración. Agregaríamos "Ejecutar Acción SBot" a las opciones de SMacros.
+
+Desafío: Ofrecer SuperMacros (FLyC0De Suite) gratuito con una función desbloqueada y que el resto sean de pago.
+
+Funciones actuales:
+Macros
+
+Funciones potenciales:
+SetTitle
+     Via SBot > Perhaps replaces APIs
+          A way to automatize action import?
+     TwitchAPI
+     Kick / YT API?
+SetGame
+     Via SBot Perhaps replaces APIs
+          A way to automatize action import?
+     TwitchAPI
+     Kick / YT API?
+Shoutout
+     Via SBot Perhaps replaces APIs
+          A way to automatize action import?
+     TwitchAPI?
+     Kick / YT API?
+Poll 
+   Via SBot (broken)
+    Directly to OBS?
+    Own API Server?
+          Localhosted?
+          Web hosted?
+MarathonTimer
+
+One API to rule them all?
+
+
+StreamHub te permite convertir una pulsación de tecla en una acción de StreamerBot.
+StreamHub tiene dependencia con StreamerBot, incluyendo instalarlo, importar las acciones, activar wss

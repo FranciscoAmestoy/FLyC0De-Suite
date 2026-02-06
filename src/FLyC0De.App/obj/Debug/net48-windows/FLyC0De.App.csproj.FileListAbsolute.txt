@@ -1,0 +1,24 @@
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De.App.csproj.AssemblyReference.cache
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\Views\MainWindow.baml
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\Views\MainWindow.g.cs
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\App.g.cs
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\GeneratedInternalTypeHelper.g.cs
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De Suite_MarkupCompile.cache
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De Suite_MarkupCompile.lref
+D:\Archivos\Documentos\FLyC0De-Suite\DEBUG\net48-windows\interception.dll
+D:\Archivos\Documentos\FLyC0De-Suite\DEBUG\net48-windows\FLyC0De Suite.exe.config
+D:\Archivos\Documentos\FLyC0De-Suite\DEBUG\net48-windows\FLyC0De Suite.exe
+D:\Archivos\Documentos\FLyC0De-Suite\DEBUG\net48-windows\FLyC0De Suite.pdb
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\App.baml
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De Suite.g.resources
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De.App.AssemblyInfoInputs.cache
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De.App.AssemblyInfo.cs
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De.App.csproj.CoreCompileInputs.cache
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De.App.sourcelink.json
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De..DC378817.Up2Date
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De Suite.exe
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De Suite.pdb
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\FLyC0De Suite.exe.config
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\Dialogs\SettingsDialog.baml
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\obj\Debug\net48-windows\Dialogs\SettingsDialog.g.cs

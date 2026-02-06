@@ -1,0 +1,109 @@
+<Application x:Class="FLyC0De.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:FLyC0De.App.Converters">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                 <!-- Default Language (Fallbacks) -->
+                 <ResourceDictionary Source="/Resources/Strings.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            
+            <!-- Colors & Brushes -->
+            <!-- Colors & Brushes -->
+            <!-- Main Background: Deep Indigo #4645E8 -->
+            <!-- Main Background: Dark Indigo #1A1A40 (Base) -> Header Gradient uses #4645E8 -->
+            <LinearGradientBrush x:Key="MainBackgroundBrush" StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#1A1A40" Offset="0"/>
+                <GradientStop Color="#101030" Offset="1"/>
+            </LinearGradientBrush>
+            
+            <LinearGradientBrush x:Key="HeaderBackgroundBrush" StartPoint="0,0" EndPoint="1,0">
+                <GradientStop Color="#4645E8" Offset="0"/>
+                <GradientStop Color="#2A2A8A" Offset="1"/>
+            </LinearGradientBrush>
+            
+            <!-- Panel Background: Gunmetal Grey #5E5E5E -->
+            <LinearGradientBrush x:Key="PanelBackgroundBrush" StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#5E5E5E" Offset="0"/>
+                <GradientStop Color="#3E3E3E" Offset="1"/>
+            </LinearGradientBrush>
+
+            <!-- Text Color: Electric Cyan #00FFEA -->
+            <SolidColorBrush x:Key="TextBrush" Color="#00FFEA"/>
+            
+            <!-- Accent Color: Neon Pink #FF2A93 -->
+            <SolidColorBrush x:Key="AccentBrush" Color="#FF2A93"/>
+            
+            <!-- Converters -->
+            <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+            <converters:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter"/>
+            <converters:PluginStatusToColorConverter x:Key="PluginStatusToColorConverter"/>
+
+            <!-- Styles -->
+            <Style TargetType="GroupBox">
+                <Setter Property="BorderBrush" Value="{StaticResource AccentBrush}"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="Background" Value="#303030"/>
+                <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="GroupBox">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Border Grid.Row="0" Grid.RowSpan="2" BorderThickness="1" BorderBrush="#00FFEA" CornerRadius="3" Opacity="0.5" Margin="0,0,-1,-1"/>
+                                <Border Grid.Row="0" Grid.RowSpan="2" BorderThickness="1" BorderBrush="{StaticResource AccentBrush}" CornerRadius="3"/>
+                                
+                                <Border Grid.Row="0" Padding="5,2" Background="{StaticResource PanelBackgroundBrush}" CornerRadius="2">
+                                    <ContentPresenter ContentSource="Header" TextElement.FontWeight="Bold" TextElement.Foreground="{StaticResource TextBrush}"/>
+                                </Border>
+                                <ContentPresenter Grid.Row="1" Margin="{TemplateBinding Padding}"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="Padding" Value="10,4"/>
+                <Setter Property="Margin" Value="2"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Border x:Name="border" BorderBrush="#707070" BorderThickness="1" CornerRadius="2">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Color="#F8F8F8" Offset="0"/>
+                                            <GradientStop Color="#D8D8D8" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                </Border>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="{TemplateBinding Padding}"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter TargetName="border" Property="Background">
+                                        <Setter.Value>
+                                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                <GradientStop Color="#D8D8D8" Offset="0"/>
+                                                <GradientStop Color="#C8C8C8" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter TargetName="border" Property="Opacity" Value="0.6"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

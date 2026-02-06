@@ -1,0 +1,16 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  FLyC0De.Core -> D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.Core\bin\Debug\net48-windows\FLyC0De.Core.dll
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\Views\MainWindow.xaml.cs(160,54): error CS0104: 'KeyboardDevice' is an ambiguous reference between 'System.Windows.Input.KeyboardDevice' and 'FLyC0De.Core.Interception.KeyboardDevice' [D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\FLyC0De.App_bjcwmolp_wpftmp.csproj]
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\Views\MainWindow.xaml.cs(178,48): error CS0104: 'KeyboardEventArgs' is an ambiguous reference between 'System.Windows.Input.KeyboardEventArgs' and 'FLyC0De.Core.Interception.KeyboardEventArgs' [D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\FLyC0De.App_bjcwmolp_wpftmp.csproj]
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\Views\MainWindow.xaml.cs(211,17): error CS0246: The type or namespace name 'IAction' could not be found (are you missing a using directive or an assembly reference?) [D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\FLyC0De.App_bjcwmolp_wpftmp.csproj]
+
+Build FAILED.
+
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\Views\MainWindow.xaml.cs(160,54): error CS0104: 'KeyboardDevice' is an ambiguous reference between 'System.Windows.Input.KeyboardDevice' and 'FLyC0De.Core.Interception.KeyboardDevice' [D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\FLyC0De.App_bjcwmolp_wpftmp.csproj]
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\Views\MainWindow.xaml.cs(178,48): error CS0104: 'KeyboardEventArgs' is an ambiguous reference between 'System.Windows.Input.KeyboardEventArgs' and 'FLyC0De.Core.Interception.KeyboardEventArgs' [D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\FLyC0De.App_bjcwmolp_wpftmp.csproj]
+D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\Views\MainWindow.xaml.cs(211,17): error CS0246: The type or namespace name 'IAction' could not be found (are you missing a using directive or an assembly reference?) [D:\Archivos\Documentos\FLyC0De-Suite\src\FLyC0De.App\FLyC0De.App_bjcwmolp_wpftmp.csproj]
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:01.02
